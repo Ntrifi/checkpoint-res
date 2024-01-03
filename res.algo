@@ -1,6 +1,6 @@
 FUNCTION palindrome (chaine:STRING) : BOOLEAN
 VAR
-    results:=BOOLEAN;
+    results:BOOLEAN;
     sChaine:STRING;
 BEGIN
 //debut
