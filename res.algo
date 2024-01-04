@@ -8,7 +8,7 @@ BEGIN
         results:=TRUE;
     ELSE
         IF (chaine[0] = chaine[chaine.length-1]) THEN
-        chaine:=Sous_chaine(chaine, 2,chaine.length-2);
+        sChaine:=Sous_chaine(chaine, 2,chaine.length-2);
         palindrome(sChaine);
         ELSE
             results:=FALSE
